@@ -1,4 +1,4 @@
-age, name = int(input("Введи возраст ")), input("Введи имя ")
+age, name = int(input("Введите возраст: ")), input("Введите имя: ")
 
 user_data = {name: age}
 
