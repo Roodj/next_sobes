@@ -1,8 +1,4 @@
-def morethan(lst):
-    nums = [i for i in lst if i > 13]
-    return nums
+user_input = list(range(100))
 
-
-if __name__ == "__main__":
-    user_input = list(range(100))
-    print(morethan(user_input))    
+nums = [i for i in user_input if i > 13]
+print(nums)

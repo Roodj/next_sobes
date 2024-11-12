@@ -1,8 +1,3 @@
-def morethan(lst):
-    nums = [i for i in lst if i > 13]
-    return nums
+user_input = int(input("Введите число: "))
 
-
-if __name__ == "__main__":
-    user_input = list(range(100))
-    print(morethan(user_input))    
+print("Нечетное число" if user_input % 2 else "Четное число")
